@@ -1,0 +1,28 @@
+.card-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background: #ADD9F4;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: #F15156;
+    border-radius: 5%;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 750ms;
+    color: white;
+}
+
+.card.show{
+    transform: translateX(0);
+    opacity: 1;
+    background-color: #476C9B;
+}
+
